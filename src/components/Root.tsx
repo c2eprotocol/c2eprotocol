@@ -35,7 +35,7 @@ const Inner: FC = () => {
 
   return (
       <TonConnectUIProvider
-        // manifestUrl={MANIFEST_URL}
+        manifestUrl={MANIFEST_URL}
         actionsConfiguration={{
           twaReturnUrl: TMA_URL,
         }}
